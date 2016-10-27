@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="helloExpressApp">
+    <Basepaths>/helloExpressApp</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1473319752669</CreatedAt>
+    <CreatedBy>purushotham.hallasinahallinarayanswamy@mindtree.com</CreatedBy>
+    <DisplayName>helloExpressApp</DisplayName>
+    <LastModifiedAt>1473319752669</LastModifiedAt>
+    <LastModifiedBy>purushotham.hallasinahallinarayanswamy@mindtree.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://app.js</Resource>
+        <Resource>node://node_modules_express.zip</Resource>
+        <Resource>node://package.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

@@ -1,0 +1,17 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "myapp",
+  "main": "app.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "puru",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
